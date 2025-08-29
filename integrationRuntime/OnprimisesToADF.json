@@ -1,0 +1,9 @@
+{
+	"name": "OnprimisesToADF",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"selfContainedInteractiveAuthoringEnabled": true
+		}
+	}
+}

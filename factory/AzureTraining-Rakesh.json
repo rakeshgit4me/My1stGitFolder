@@ -1,0 +1,9 @@
+{
+	"name": "AzureTraining-Rakesh",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4bb339c1-0570-4219-af4b-f866efe7a3da",
+		"tenantId": "c5f00a93-c9c1-4a8d-b5cd-1ca5cf2b9262"
+	}
+}
