@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "AzureTraining-Rakesh"
+		},
+		"ABS_Rakesh_connectionString": {
+			"value": ""
+		},
+		"Rakesh_AzureSqlDatabase_password": {
+			"value": ""
+		},
+		"Rakesh_AzureSqlDatabase_properties_typeProperties_server": {
+			"value": "tesdataserver.database.windows.net"
+		},
+		"Rakesh_AzureSqlDatabase_properties_typeProperties_database": {
+			"value": "tesdatabase"
+		},
+		"Rakesh_AzureSqlDatabase_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
