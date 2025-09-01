@@ -1,0 +1,25 @@
+{
+	"name": "TruncateTable_Trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "truncatetable",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 2,
+				"startTime": "2025-09-01T09:16:00",
+				"endTime": "2025-09-03T09:16:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
