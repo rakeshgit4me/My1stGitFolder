@@ -11,12 +11,6 @@
 		"Rakesh_AzureSqlDatabase_password": {
 			"value": ""
 		},
-		"SqlServer1_password": {
-			"value": ""
-		},
-		"SqlServer2_password": {
-			"value": ""
-		},
 		"Rakesh_AzureSqlDatabase_properties_typeProperties_server": {
 			"value": "tesdataserver.database.windows.net"
 		},
@@ -25,24 +19,6 @@
 		},
 		"Rakesh_AzureSqlDatabase_properties_typeProperties_userName": {
 			"value": "sqladmin"
-		},
-		"SqlServer1_properties_typeProperties_server": {
-			"value": "."
-		},
-		"SqlServer1_properties_typeProperties_database": {
-			"value": "ORG"
-		},
-		"SqlServer1_properties_typeProperties_userName": {
-			"value": "sa"
-		},
-		"SqlServer2_properties_typeProperties_server": {
-			"value": "."
-		},
-		"SqlServer2_properties_typeProperties_database": {
-			"value": "ORG"
-		},
-		"SqlServer2_properties_typeProperties_userName": {
-			"value": "sa"
 		},
 		"containerUri": {
 			"value": ""
