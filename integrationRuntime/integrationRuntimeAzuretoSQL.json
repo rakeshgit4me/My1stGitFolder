@@ -1,6 +1,0 @@
-{
-	"name": "integrationRuntimeAzuretoSQL",
-	"properties": {
-		"type": "SelfHosted"
-	}
-}
