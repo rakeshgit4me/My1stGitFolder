@@ -1,0 +1,30 @@
+{
+	"name": "srctble",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Rakesh_AzureSqlDatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Name",
+				"type": "varchar"
+			},
+			{
+				"name": "Gender",
+				"type": "char"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "MyfirstAzTable"
+		}
+	}
+}
