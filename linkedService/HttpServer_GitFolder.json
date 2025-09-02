@@ -1,0 +1,15 @@
+{
+	"name": "HttpServer_GitFolder",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/rakeshgit4me",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Basic",
+			"userName": "rakeshgit4me",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEExRTk3MDY4LTQ0QTgtNDVBMS04RjNGLTJCNEFGRTFDMDVDNl8yZjc5MzY2Yy00YzJiLTQxZjYtOTRjMi04MDJjZmE5MTE3ZWUiDQp9"
+		}
+	}
+}
