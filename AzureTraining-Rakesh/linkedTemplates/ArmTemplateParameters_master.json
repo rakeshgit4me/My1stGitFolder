@@ -8,8 +8,23 @@
 		"ABS_Rakesh_connectionString": {
 			"value": ""
 		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"HttpServer_GitFolder_password": {
+			"value": ""
+		},
 		"Rakesh_AzureSqlDatabase_password": {
 			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://storedata4me.dfs.core.windows.net/"
+		},
+		"HttpServer_GitFolder_properties_typeProperties_url": {
+			"value": "https://github.com/rakeshgit4me"
+		},
+		"HttpServer_GitFolder_properties_typeProperties_userName": {
+			"value": "rakeshgit4me"
 		},
 		"Rakesh_AzureSqlDatabase_properties_typeProperties_server": {
 			"value": "tesdataserver.database.windows.net"
