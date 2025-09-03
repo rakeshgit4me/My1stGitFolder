@@ -29,15 +29,9 @@
 						"partitionOption": "None"
 					},
 					"sink": {
-						"type": "DelimitedTextSink",
-						"storeSettings": {
-							"type": "AzureBlobFSWriteSettings"
-						},
-						"formatSettings": {
-							"type": "DelimitedTextWriteSettings",
-							"quoteAllText": true,
-							"fileExtension": ".txt"
-						}
+						"type": "AzureSqlSink",
+						"writeBehavior": "insert",
+						"sqlWriterUseTableLock": false
 					},
 					"enableStaging": false,
 					"validateDataConsistency": false,
@@ -52,13 +46,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "SourceDataset_o9h",
+						"referenceName": "SQLServerTable",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "DestinationDataset_o9h",
+						"referenceName": "AzureSqlTable1",
 						"type": "DatasetReference"
 					}
 				]

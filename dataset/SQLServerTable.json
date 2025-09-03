@@ -1,0 +1,26 @@
+{
+	"name": "SQLServerTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServerAzure",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "name",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "MultipleExcelSheet_Data"
+		}
+	}
+}
