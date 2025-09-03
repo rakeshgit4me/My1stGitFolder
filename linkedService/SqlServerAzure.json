@@ -10,8 +10,8 @@
 			"encrypt": "optional",
 			"trustServerCertificate": false,
 			"authenticationType": "SQL",
-			"userName": "rakeshgit4me",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJiYjA1MjRiOC1jZmJhLTRiNzUtYmI4MS0zNTc1ZDQzMDc3OTMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"userName": "sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0NjgwYmZmMy1mNDllLTRkYmYtYjdjYy03NDI2YTFjNzYwZTkiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "integrationRuntimeSQLTOAZURE",
