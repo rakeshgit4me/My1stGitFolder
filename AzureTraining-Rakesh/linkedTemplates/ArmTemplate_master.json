@@ -23,6 +23,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'Rakesh_AzureSqlDatabase'"
 		},
+		"SqlServerAzure_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'SqlServerAzure'"
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://storedata4me.dfs.core.windows.net/"
@@ -46,6 +50,18 @@
 		"Rakesh_AzureSqlDatabase_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "sqladmin"
+		},
+		"SqlServerAzure_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "127.0.0.1"
+		},
+		"SqlServerAzure_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "ORG"
+		},
+		"SqlServerAzure_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "sa"
 		},
 		"containerUri": {
 			"type": "string",
@@ -86,6 +102,9 @@
 					"Rakesh_AzureSqlDatabase_password": {
 						"value": "[parameters('Rakesh_AzureSqlDatabase_password')]"
 					},
+					"SqlServerAzure_password": {
+						"value": "[parameters('SqlServerAzure_password')]"
+					},
 					"AzureDataLakeStorage1_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
 					},
@@ -103,6 +122,15 @@
 					},
 					"Rakesh_AzureSqlDatabase_properties_typeProperties_userName": {
 						"value": "[parameters('Rakesh_AzureSqlDatabase_properties_typeProperties_userName')]"
+					},
+					"SqlServerAzure_properties_typeProperties_server": {
+						"value": "[parameters('SqlServerAzure_properties_typeProperties_server')]"
+					},
+					"SqlServerAzure_properties_typeProperties_database": {
+						"value": "[parameters('SqlServerAzure_properties_typeProperties_database')]"
+					},
+					"SqlServerAzure_properties_typeProperties_userName": {
+						"value": "[parameters('SqlServerAzure_properties_typeProperties_userName')]"
 					}
 				}
 			},

@@ -17,6 +17,9 @@
 		"Rakesh_AzureSqlDatabase_password": {
 			"value": ""
 		},
+		"SqlServerAzure_password": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://storedata4me.dfs.core.windows.net/"
 		},
@@ -34,6 +37,15 @@
 		},
 		"Rakesh_AzureSqlDatabase_properties_typeProperties_userName": {
 			"value": "sqladmin"
+		},
+		"SqlServerAzure_properties_typeProperties_server": {
+			"value": "127.0.0.1"
+		},
+		"SqlServerAzure_properties_typeProperties_database": {
+			"value": "ORG"
+		},
+		"SqlServerAzure_properties_typeProperties_userName": {
+			"value": "sa"
 		}
 	}
 }
